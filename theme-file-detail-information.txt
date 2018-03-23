@@ -1,0 +1,13 @@
+List of files that a theme can contain:
+
+.info — A required file which provides information about the theme.
+html.tpl.php—It displays the basic html structure of a single Drupal page.
+page.tpl.php — The main template that defines the content on most of the pages.
+style.css — The CSS file that sets the CSS rules for the template.
+node.tpl.php — This file defines the content of the nodes.
+block.tpl.php — It defines the content in the blocks.
+comment.tpl.php — It defines the content in the comments.
+template.php—It can be used to hold preprocessors for generating variables before they are merged with the markup inside .tpl.php files.
+theme-settings.php—You can modify the entire theme settings form.
+logo.png — Your logo, if you are using one.
+screenshot.png — This is a screen-shot of your theme that is used in the admin panel and in the user account settings if you have enabled more than one theme so that visitors can choose which theme they want to use.
