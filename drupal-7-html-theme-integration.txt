@@ -1,6 +1,6 @@
 Html template integration in drupal 7 ,follow the step by step process given below.
 
-1.First install drupal 7 on your system ....already Done
+1.First install drupal 7 on your system 
 2.Go on root where you have installed drupal7.
 3.Open THEMES folder and copy drupal7 default theme name as bartik.
 4.Paste bartik in the path given below
