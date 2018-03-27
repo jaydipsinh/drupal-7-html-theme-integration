@@ -1,23 +1,23 @@
 Html template integration in drupal 7 ,follow the step by step process given below.
 
-1.First install drupal 7 on your system 
+1.First install drupal 7 on your system ....already Done
 2.Go on root where you have installed drupal7.
-3.Open THEMES folder and copy drupal7 default theme name as seven.
-4.Paste seven in the path given below
+3.Open THEMES folder and copy drupal7 default theme name as bartik.
+4.Paste bartik in the path given below
 sites -> all -> themes
-5.Rename the pasted theme. for example (seven>your_theme_name) whatever you want to name.
-6. Open "your_theme_name" folder and rename seven.info file to your_theme_name.info.
-7. Open your_theme_name.info file there is name = seven in the first line of the file replace this 
-name = seven to name your_theme_name i.e name=your_theme_name
-8.Go back to your_theme_name theme folder and open template.php and rename seven from all the 
+5.Rename the pasted theme. for example (bartik>iips) whatever you want to name.
+6. Open "iips" folder and rename bartik.info file to iips.info.
+7. Open iips.info file there is name = bartik in the first line of the file replace this 
+name = bartik to name iips i.e name=iips
+8.Go back to iips theme folder and open template.php and rename bartik from all the 
 functions with your theme name.
 eg: function seven_preprocess_html >function iips_preprocess_html.
 9.if you want to change logo just copy logo.png (from your html template)
-which you want to add in your theme and paste in the your_theme_name theme.
-10.go to /admin/appearance there will be a subtheme name as your_theme_name , enable and set this theme 
-as default by clicking the link enable and set default given below sub theme your_theme_name
-11.Go to templete folder and copy page.tpl.php and paste it here and rename as front--page.tpl.php and save.
+which you want to add in your theme and paste in the iips theme.
+10.go to /admin/appearance there will be a subtheme name as iips , enable and set this theme 
+as default by clicking the link enable and set default given below sub theme iips
+11.Go to templete folder and copy page.tpl.php and paste it here and rename as page--front.tpl.php and save.
 12.Clear the website cache.(admin/config/development/performance).
-13.include js and css as per path folder
+13.Include js,css,images 
 
 Now next step is dynamic block management and dynamic html.
