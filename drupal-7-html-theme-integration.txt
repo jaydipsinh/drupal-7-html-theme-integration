@@ -5,17 +5,17 @@ Html template integration in drupal 7 ,follow the step by step process given bel
 3.Open THEMES folder and copy drupal7 default theme name as bartik.
 4.Paste bartik in the path given below
 sites -> all -> themes
-5.Rename the pasted theme. for example (bartik>iips) whatever you want to name.
-6. Open "iips" folder and rename bartik.info file to iips.info.
-7. Open iips.info file there is name = bartik in the first line of the file replace this 
-name = bartik to name iips i.e name=iips
-8.Go back to iips theme folder and open template.php and rename bartik from all the 
+5.Rename the pasted theme. for example (bartik>projectname) whatever you want to name.
+6. Open "projectname" folder and rename bartik.info file to projectname.info.
+7. Open projectname.info file there is name = bartik in the first line of the file replace this 
+name = bartik to name projectname i.e name=projectname
+8.Go back to projectname theme folder and open template.php and rename bartik from all the 
 functions with your theme name.
-eg: function seven_preprocess_html >function iips_preprocess_html.
+eg: function seven_preprocess_html >function projectname_preprocess_html.
 9.if you want to change logo just copy logo.png (from your html template)
-which you want to add in your theme and paste in the iips theme.
-10.go to /admin/appearance there will be a subtheme name as iips , enable and set this theme 
-as default by clicking the link enable and set default given below sub theme iips
+which you want to add in your theme and paste in the projectname theme.
+10.go to /admin/appearance there will be a subtheme name as projectname , enable and set this theme 
+as default by clicking the link enable and set default given below sub theme projectname
 11.Go to templete folder and copy page.tpl.php and paste it here and rename as page--front.tpl.php and save.
 12.Clear the website cache.(admin/config/development/performance).
 13.Include js,css,images 
